@@ -1,7 +1,8 @@
 ## Fouzi TAKELAIT, 2017-11-24
 ## cachmatrix.R
 ## Example Simulation:
-## invertibleMatrix <- matrix(c(1,0,5,2,1,6,3,4,0), ncol = 3) ## assume that the matrix supplied is always square invertible matrix where det(invertibleMatrix) != 0
+## assume that the matrix supplied is always square invertible matrix where det(invertibleMatrix) != 0
+## invertibleMatrix <- matrix(c(1,0,5,2,1,6,3,4,0), ncol = 3)
 ## cachInversMatrix <- makeCacheMatrix(invertibleMatrix)
 ## cachInversMatrix$getMatrix() ## returns:
 #      [,1] [,2] [,3]
